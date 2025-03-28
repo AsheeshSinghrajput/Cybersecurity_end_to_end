@@ -55,10 +55,10 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       
       - name: Build the Package
-        run: docker build -t diabetes_image:latest .
+        run: docker build -t asheeshkumarsingh07/diabetes_image:latest .
 
       - name: Push the Package
-        run: docker push diabetes_image:latest
+        run: docker push asheeshkumarsingh07/diabetes_image:latest
 
   pull-and-start-app:
     name: Continuous Deployment
@@ -72,7 +72,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Pull Package
-        run: sudo docker pull diabetes_image:latest
+        run: sudo docker pull asheeshkumarsingh07/diabetes_image:latest
 
       - name: Remove Already Running Container
         run: |
@@ -83,6 +83,6 @@ jobs:
 
       - name: Run Docker Image to serve users
         run: |
-          docker run -d --name=inference -p 8080:8000 diabetes_image:latest
+          docker run -d --name=inference -p 8080:8000 asheeshkumarsingh07/diabetes_image:latest
 
 
