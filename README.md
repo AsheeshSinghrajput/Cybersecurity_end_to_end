@@ -5,6 +5,7 @@
 
 ## Docker 
 
+
 ### FROM python: slim-bulleye : start with lightweight python environment. ###
 ### COPY . . /src: copy your currect files to a directory name "src" in the image. ###
 ### WORKDIR src : set the working directory inside the image to "src". ###
@@ -13,6 +14,7 @@
 ### EXPOSE 8000: prepare to listen on port 8000 ###
 
 ## CICD ##
+
 
 ### CI/CD pipeline using GitHub Actions ###
 **Triggered on push to main, excluding README.md**.
