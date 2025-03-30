@@ -15,6 +15,8 @@
 
 ## CICD  Pipeline (GitHub Actions) ##
 
+### This project uses GitHub Actions for Continuous Integration (CI) and Continuous Deployment (CD).###
+
 **Triggered on push to main, excluding README.md.**
 
 **Two jobs: integration and build-push-package**.
