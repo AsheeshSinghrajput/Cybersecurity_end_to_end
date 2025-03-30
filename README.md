@@ -13,7 +13,7 @@
 ### ENTRYPOIN ["python","app.py"] # run "app.py" when the container starts. ###
 ### EXPOSE 8000 # prepare to listen on port 8000 ###
 
-## CICD ##
+## CICD  Pipeline (GitHub Actions) ##
 
 
 ### CI/CD pipeline using GitHub Actions ###
@@ -28,7 +28,7 @@
 
 **Lint code using ruff**.
 
-### Build and Push Package: ###
+### 2. Build and Push Package: ###
 
 **Depends on integration**.
 
