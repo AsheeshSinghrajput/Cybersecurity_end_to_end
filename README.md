@@ -25,7 +25,7 @@
 ### 1. Intregation: ###
 **Matrix: Python 3.9, 3.10, 3.11**.
 
-**Setup Python, install deps**.
+**Setup Python, install dependencies.**.
 
 **Lint code using ruff**.
 
