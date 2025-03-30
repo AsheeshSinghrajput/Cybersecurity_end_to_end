@@ -37,10 +37,10 @@
 
 
 
-## Step 1 -> Install required Libraries ##
-# !pip install klib #
-# !pip install lazypredict #
-# !pip install xgboost #
+### Step 1 -> Install required Libraries ###
+ !pip install klib 
+ !pip install lazypredict 
+ !pip install xgboost 
 Step 2 -> Import required packages.
 Step 3 -> Load data.
 Step 4 -> Data understanding.
