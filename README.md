@@ -1,15 +1,32 @@
 # **Steps For End to End diabetes_prediction Process**
-## ** Architecture Diagram **
+## Architecture Diagram 
 
 ![image](https://github.com/user-attachments/assets/eaae1f0e-52e4-4e99-b481-fe5cc9072137)
 
-## ** Docker **
-### FROM python: slim-bulleye : start with lightweight python environment.###
-### COPY . . /src: copy your currect files to a dictionary name "src" in the image.###
+## Docker 
+
+### FROM python: slim-bulleye : start with lightweight python environment. ###
+### COPY . . /src: copy your currect files to a directory name "src" in the image. ###
 ### WORKDIR src : set the working directory inside the image to "src". ###
 ### Run pip -r requirenments.txt : install python dependencies. ###
 ### ENTRYPOIN ["python","app.py"]: launch the "app.py" script when container starts. ###
 ### EXPOSE 8000: prepare to listen on port 8000 ###
+
+## CICD ##
+
+# CI/CD pipeline using GitHub Actions #
+**Triggered on push to main, excluding README.md.**
+**Two jobs: integration and build-push-package.**
+# 1. Intregation: #
+**Matrix: Python 3.9, 3.10, 3.11.**
+**Setup Python, install deps.**
+**Lint code using ruff.**
+
+# Build and Push Package: #
+**Depends on integration.**
+**Build Docker image and push to Docker Hub.**
+
+
 
 ## Step 1 -> Install required Libraries.
 Step 2 -> Import required packages.
