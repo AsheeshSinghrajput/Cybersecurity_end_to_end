@@ -37,7 +37,7 @@
 
 
 
-## Step 1 -> Install required Libraries.
+## Step 1 -> Install required Libraries
 Step 2 -> Import required packages.
 Step 3 -> Load data.
 Step 4 -> Data understanding.
