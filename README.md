@@ -1,4 +1,14 @@
 # **Steps For End to End diabetes_prediction Process**
+
+
+![image](https://github.com/user-attachments/assets/eaae1f0e-52e4-4e99-b481-fe5cc9072137)
+
+
+
+
+
+
+
 ## Step 1 -> Install required Libraries.
 Step 2 -> Import required packages.
 Step 3 -> Load data.
