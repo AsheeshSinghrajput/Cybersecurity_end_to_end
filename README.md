@@ -15,16 +15,16 @@
 ## CICD ##
 
 # CI/CD pipeline using GitHub Actions #
-**Triggered on push to main, excluding README.md.**
-**Two jobs: integration and build-push-package.**
+**Triggered on push to main, excluding README.md**.
+**Two jobs: integration and build-push-package**.
 # 1. Intregation: #
-**Matrix: Python 3.9, 3.10, 3.11.**
-**Setup Python, install deps.**
-**Lint code using ruff.**
+**Matrix: Python 3.9, 3.10, 3.11**.
+**Setup Python, install deps**.
+**Lint code using ruff**.
 
 # Build and Push Package: #
-**Depends on integration.**
-**Build Docker image and push to Docker Hub.**
+**Depends on integration**.
+**Build Docker image and push to Docker Hub**.
 
 
 
