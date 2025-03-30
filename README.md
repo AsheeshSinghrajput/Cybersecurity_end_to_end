@@ -6,7 +6,7 @@
 ## Docker 
 
 
-### FROM python: slim-bulleye  # start with lightweight python environment. ###
+### FROM python: slim-bullseye  # start with lightweight python environment. ###
 ### COPY . . /src              # copy your currect files to a directory name "src" in the image. ###
 ### WORKDIR src                # set the working directory inside the image to "src". ###
 ### Run pip install -r requirenments.txt # install python dependencies. ###
