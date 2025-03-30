@@ -16,8 +16,6 @@
 
 ## CICD  Pipeline (GitHub Actions) ##
 
-
-### CI/CD pipeline using GitHub Actions ###
 **Triggered on push to main, excluding README.md.**
 
 **Two jobs: integration and build-push-package**.
