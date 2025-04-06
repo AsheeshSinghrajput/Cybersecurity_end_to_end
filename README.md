@@ -1,4 +1,4 @@
-# **Steps For End to End diabetes_prediction Process**
+# **Steps For End to End Cybersecurity Process**
 ## Architecture Diagram 
 
 ![image](https://github.com/user-attachments/assets/eaae1f0e-52e4-4e99-b481-fe5cc9072137)
