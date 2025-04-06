@@ -1,4 +1,6 @@
 # **Steps For End to End Cybersecurity Process**
+📘 [Click here to view the notebook with all steps and outputs](https://github.com/AsheeshSinghrajput/Cybersecurity_end_to_end/blob/main/NSL-KDD-Cybersecurity.ipynb) 
+
 ## Architecture Diagram 
 
 ![image](https://github.com/user-attachments/assets/eaae1f0e-52e4-4e99-b481-fe5cc9072137)
