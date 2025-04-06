@@ -32,7 +32,7 @@ async def predict(data: dict):
 
 @app.get("/done")
 async def done():
-    """ This is Schema of the code. hello guys"""
+    """ This is Schema of the code. hello guys kaise hai app log"""
     data = {"response": "done"}
     return {"schema": data}
 
